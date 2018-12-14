@@ -74,7 +74,7 @@ class EmailReplyParser
     # text - A String email body.
     #
     # Returns this same Email instance.
-    def read(text, header_regex_arr = [])
+    def read(text)
       text = text.dup
 
       # Normalize line endings.
